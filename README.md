@@ -3,6 +3,10 @@
 Simple web CV minimalist layout.
 Inspired by [@BartoszJarocki](https://github.com/BartoszJarocki/cv) cv repository.
 
+## Demo
+
+https://cv-pi-eight.vercel.app/
+
 ## Techs
 
 - Next.js 14
