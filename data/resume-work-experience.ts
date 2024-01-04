@@ -5,7 +5,7 @@ export type WorkExperience = {
   startYear: string;
   endYear: string;
   description: string;
-  technologies: string[];
+  technologies: string;
 };
 
 const workExperience = [

@@ -6,7 +6,7 @@ export const Education = () => {
         <div>
           <h3 className="text-lg font-semibold">Senac</h3>
           <p className="text-sm text-pretty text-muted-foreground tracking-wide leading-normal">
-            Bachelor's Degree in Control systems engineering and Robotics
+            Bachelor&apos;s Degree in Control systems engineering and Robotics
           </p>
         </div>
         <p className="text-muted-foreground">2022 - 2024</p>

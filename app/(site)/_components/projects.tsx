@@ -46,7 +46,7 @@ export const Projects = () => {
             </CardHeader>
             <CardFooter className="flex flex-wrap gap-1">
               {project.badges.map((badge) => (
-                <Badge variant="secondary">{badge}</Badge>
+                <Badge key={badge} variant="secondary">{badge}</Badge>
               ))}
             </CardFooter>
           </Card>
