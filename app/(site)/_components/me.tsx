@@ -25,7 +25,7 @@ const contacts = [
 export const Me = () => {
   return (
     <div className="flex items-center justify-between">
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold">Rodrigo Polim</h1>
         <span className="text-sm max-w-md text-pretty text-muted-foreground mt-2">
           Full Stack Engineer focused on building products with extra attention
