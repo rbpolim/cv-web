@@ -35,7 +35,7 @@ export const Projects = () => {
   return (
     <section className="space-y-2">
       <h2 className="text-2xl font-bold">Projects</h2>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((project) => (
           <Card key={project.title}>
             <CardHeader>
@@ -46,7 +46,9 @@ export const Projects = () => {
             </CardHeader>
             <CardFooter className="flex flex-wrap gap-1">
               {project.badges.map((badge) => (
-                <Badge key={badge} variant="secondary">{badge}</Badge>
+                <Badge key={badge} variant="secondary">
+                  {badge}
+                </Badge>
               ))}
             </CardFooter>
           </Card>

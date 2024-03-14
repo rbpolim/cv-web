@@ -37,7 +37,7 @@ export const Me = () => {
         </div>
         <div className="flex items-center gap-x-1 mt-2">
           {contacts.map((contact) => (
-            <Button key={contact.href} asChild size="icon" variant="secondary">
+            <Button key={contact.href} asChild size="icon" variant="outline">
               <a href={contact.href} target="_blank" rel="noopener noreferrer">
                 <contact.icon className="h-5 w-5 text-slate-600" />
               </a>
